@@ -1,9 +1,10 @@
 pipeline {
     agent any
     triggers {
-        pollSCM('H/5 * * * *')  // polls every 5 minutes
+        pollSCM('H/5 * * * *')  // polls every 5 minutes 
     }
-    stages {
+    // below are the stages
+    stages { 
         stage('Build') {
             steps {
                 echo 'Task: Compile the application using a build automation tool.'
