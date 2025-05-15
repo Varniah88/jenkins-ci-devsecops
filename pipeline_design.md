@@ -1,4 +1,4 @@
-Theoretical Design of a 7-Stage Jenkins Pipeline
+# Theoretical Design of a 7-Stage Jenkins Pipeline
 
 Stage 1: Build
 Task: Compile the application using a build automation tool.
